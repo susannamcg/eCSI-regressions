@@ -21,8 +21,11 @@
   for(i in 1:length(questions)){
     if(questions[i] != "ArrP" & questions[i] != "DepP" & questions[i] != "Miles"){
       questions[i] = paste("X",questions[i], sep = "")
+      #ensure all data columns are read as integers
+      dataSet[,which(names(dataSet) == questions[i])] = as.integer(as.character(dataSet[,which(names(dataSet) == questions[i])]))
     }
   }
+  dataSet$X4060 = as.integer(as.character(dataSet$X4060))
   
 ##PART 1: plot the effect of multiple variables on overall satisfaction (X4060)
   
