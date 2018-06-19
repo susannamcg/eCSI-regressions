@@ -117,7 +117,7 @@
       if(valid[i] == TRUE){
         for(j in 1:length(questions)){
           entry = dataSet[i,which(names(dataSet) == questions[j])]
-          if(entry == "NULL"){
+          if(is.na(entry)){
             valid[i] = FALSE
           }
           break
