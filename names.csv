@@ -1,0 +1,85 @@
+Area,Amtrak ID #,Question/Attribute
+Amtrak Internal,4060,Overall Satisfaction
+Device usage (device used to answer survey),NULL,"On which of the following types of devices are you completing this survey? (desktop, laptop, tablet, smartphone, other)"
+Boarding station,1010,Accuracy of information received about the train trip prior to boarding the train
+Boarding station,1020,Friendliness/helpfulness of station personnel at boarding station
+Boarding station,1025,Did you purchase or pick up your ticket at the boarding station? (section skipped if 'no')
+Boarding station,1030,(If you used the ticket window) service you received at ticket window
+Boarding station,1040,(If you used a ticketing machine) ease of use of ticketing machine
+Boarding station,1042,Which of the following did you use to make your travel arrangements for your trip?
+Boarding station,1044,"Overall, how satisfied were you with [1042]?"
+Boarding station,1046,"Overall, how satisfied were you with the ease of making your reservations through [1042]?"
+Boarding station,1050,Availability of station signage/announcements at boarding station 
+Boarding station,1060,Clarity of station signage/announcements at boarding station 
+Boarding station,1070,Personal safety at boarding station 
+Boarding station,1080,Ease of train boarding process
+Boarding station,1090,Overall cleanliness of the boarding station 
+Boarding station,1100,Overall condition of the train platform and boarding area
+Boarding station,1110,Overall station experience at the boarding station
+On board misc.,2010,Comfort of your seat (asked non-sleeper only)
+On board misc.,2020,Comfort of your sleeping compartment (asked for sleeper only)
+On board misc.,2030,Smooth and comfortable train ride
+On board misc.,2040,Air temperature on the train
+On board misc.,2050,Overall cleanliness of the train interior
+On board misc.,2060,Cleanliness of train windows
+On board misc.,2065,Did you use the restroom on the train? (section skipped if 'no')
+On board misc.,2070,Cleanliness of the restrooms on the train
+On board misc.,2080,Smell of restrooms on the train pleasant/free of odor
+On board misc.,2090,Information given on the train about services/features/safety
+On board misc.,2100,Information given about problems/delays while on the train
+On board misc.,2110,Clarity of announcements on the train
+On board misc.,2120,Reliability or on-time performance of the train
+On board misc.,2124,Personal security on the train
+On board misc.,2126,Amtrak's ability to get you to your destination safely
+On board misc.,2130,Friendliness/helpfulness of the train conductors
+On board misc.,2132,Friendliness/helpfulness of the coach car attendant 
+On board misc.,2133,Friendliness/helpfulness of the sleeper car attendant
+Caf‚/lounge car,2135,Did you purchase any food or beverage items in the caf‚/lounge car? (section skipped if 'no')
+Caf‚/lounge car,2140,Availability of food items in the caf‚/lounge car
+Caf‚/lounge car,2150,Friendliness/helpfulness of caf‚/lounge car personnel
+Caf‚/lounge car,2160,Quality/freshness of food in the caf‚/lounge car
+Caf‚/lounge car,2170,Variety of food selections in the caf‚/lounge car
+Caf‚/lounge car,2180,Overall experience in the caf‚/lounge car
+Acela First Class,2141,Did you have any food or beverage items in the first class car?
+Acela First Class,2142,Availability of food items in the first class car
+Acela First Class,2152,Friendliness/helpfulness of first class car personnel
+Acela First Class,2162,Quality/freshness of food in the first class car
+Acela First Class,2172,Variety of food selections in the first class car
+Acela First Class,2182,Overall experience with the food and beverage offering in the first class car
+Dining car (long distance only),2185,"Did you have any meals in the dining car? (e.g., meals served to you) (section skipped if 'no')"
+Dining car (long distance only),2190,Friendliness/helpfulness of dining car personnel
+Dining car (long distance only),2200,Variety of menu choices in the dining car
+Dining car (long distance only),2210,Quality/freshness of food in the dining car
+Dining car (long distance only),2220,Overall experience in the dining car
+Wi-Fi (asked only on routes with Wi-Fi),2410,Did you use Amtrak's Wi-Fi service (AmtrakConnect) during your train trip? (section skipped if 'no')
+Wi-Fi (asked only on routes with Wi-Fi),2420,"Overall, how satisfied were you with the basic Wi-Fi service on the train?"
+Wi-Fi (asked only on routes with Wi-Fi),2430,Ease of accessing Amtrak's Wi-Fi service (sign-on process)
+Wi-Fi (asked only on routes with Wi-Fi),2440,Ability to perform online activities that I want
+Wi-Fi (asked only on routes with Wi-Fi),2450,Ability to stay connected to Amtrak's Wi-Fi service
+Wi-Fi (asked only on routes with Wi-Fi),2460,"Time it takes to load/access websites, e-mails, email attachments"
+Destination station,3010,Overall cleanliness of the destination station 
+Destination station,3020,Availability of information about connecting transportation services at destination station
+Destination station,3030,Clarity of information about connecting transportation services at destination station
+Destination station,3040,Overall station experience at the destination station
+Overall trip,4010,Overall experience in the coach car (long distance only)
+Overall trip,4020,Overall experience in the sleeper car (long distance only)
+Overall trip,4030,Value of Amtrak service received for the price paid for the trip
+Overall trip,4040,"Overall, how satisfied were you with Amtrak based on this trip?"
+Overall trip,4050,"Based on this trip, would you recommend traveling on Amtrak to a friend or business associate?"
+Additional questions/demogrpahics,7010,What is your gender?
+Additional questions/demogrpahics,7020,Into which of the following categories does your age fall?
+Additional questions/demogrpahics,7030,"Are you of Spanish, Hispanic or Latino origin?"
+Additional questions/demogrpahics,7040,What is your ethnic origin?
+Additional questions/demogrpahics,7050,Which best describes your current employment status?
+Additional questions/demogrpahics,7060,What is your total annual household income before taxes?
+Additional questions/demogrpahics,7070,What is the last grade of school you completed?
+Additional questions/demogrpahics,NULL,What was the purpose of your trip?
+Additional questions/demogrpahics,7090,Are you an Amtrak Guest Rewards Member?
+Additional questions/demogrpahics,7100,Including yourself how many people were in your travel party?
+Additional questions/demogrpahics,7105,What is your 5-digit home zip code?
+Additional questions/demogrpahics,7106,Live outside the United States
+Additional questions/demogrpahics,7110,How many total trips have you taken on any Amtrak route in the past 12 months?
+Additional questions/demogrpahics,7115,Of those [total] trips how many have you taken in [specific route]
+Additional questions/demogrpahics,7120,When was the first time you yourself were a passenger on Amtrak's [specific route]?
+Additional questions/demogrpahics,7130,When was the first time you yourself were a passenger on any Amtrak train?
+Additional questions/demogrpahics,7140,"Was this the first time you yourself were a passenger in [Business, Sleeper]?"
