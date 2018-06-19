@@ -1,3 +1,4 @@
+#Works for Adirondack and Ethan Allen NOT EAFY15
   
 ##PART 0: Obtain get data based on user input  
   
@@ -20,9 +21,11 @@
   for(i in 1:length(questions)){
     if(questions[i] != "ArrP" & questions[i] != "DepP" & questions[i] != "Miles"){
       questions[i] = paste("X",questions[i], sep = "")
+      #ensure all data columns are read as integers
+      dataSet[,which(names(dataSet) == questions[i])] = as.integer(as.character(dataSet[,which(names(dataSet) == questions[i])]))
     }
   }
-  
+  dataSet$X4060 = as.integer(as.character(dataSet$X4060))
 ##PART 1: plot the effect of multiple variables on overall satisfaction (X4060)
   
   #to ensure that the axes are scaled for the data used in the regression 
@@ -116,7 +119,7 @@
       if(valid[i] == TRUE){
         for(j in 1:length(questions)){
           entry = dataSet[i,which(names(dataSet) == questions[j])]
-          if(entry == "NULL"){
+          if(is.na(entry)){
             valid[i] = FALSE
           }
           break
@@ -228,14 +231,14 @@
   
   
   ## Create new workbooks
-   wb <- createWorkbook() 
+  wb <- createWorkbook() 
    
-     ## Create the worksheets
+  ## Create the worksheets
   addWorksheet(wb, sheetName = "Single regression coefficients" )
   addWorksheet(wb, sheetName = "Multiple regression fit" )
   addWorksheet(wb, sheetName = "Top Indicators")
    
-     ## Write the data
+  ## Write the data
   writeData(wb, "Single regression coefficients", rlist)
   writeData(wb, "Multiple regression fit", fitsum)
   writeData(wb, "Top Indicators", topinds)
