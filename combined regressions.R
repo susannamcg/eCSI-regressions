@@ -1,4 +1,5 @@
-  
+#note: 2126 not available for FY14, asking that question will crash the program
+
 ##PART 0: Obtain get data based on user input  
   
   cutoff <- .3 #use only questions that have single regression r vals over this cutoff
