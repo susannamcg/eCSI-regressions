@@ -1,4 +1,5 @@
 #note: 2126 not available for FY14, asking that question will crash the program
+#note: must have loaded library(xlsx)
 
 ##PART 0: Obtain get data based on user input  
   
