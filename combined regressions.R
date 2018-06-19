@@ -114,6 +114,11 @@
     #*potential issue: might significantly reduce the sample size if too much data is incomplete
     valid <- as.matrix(dataSet$X4060 != "NULL")
     for(i in 1:length(valid)){
+      if(is.na(valid[i])){
+        valid[i] = FALSE
+      }
+    }
+    for(i in 1:length(valid)){
       if(valid[i] == TRUE){
         for(j in 1:length(questions)){
           entry = dataSet[i,which(names(dataSet) == questions[j])]
