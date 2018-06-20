@@ -1,5 +1,5 @@
 #note: 2126 not available for FY14, asking that question will crash the program
-#note: must have loaded library(xlsx)
+library(openxlsx)
 
 ##PART 0: Obtain get data based on user input  
   
@@ -15,7 +15,7 @@
   #userInput = "Ethan Allen"
   #railLine = "EthanAllen"
   #dataSet = read.csv("EthanAllen.csv")
-  questions = "1010, 1020, 1050, 1060, 1070, 1080, 1090, 1100, 1110, 2030, 2040, 2050, 2060, 2090, 2100, 2110, 2120, 2124, 2126, 2130, 2420, 2430, 2440, 2450, 2460, 3010, 3020, 3030, 3040"
+  questions = "1010, 1020, 1050, 1060, 1070, 1080, 1090, 1100, 1110, 2030, 2040, 2050, 2060, 2090, 2100, 2110, 2120, 2124, 2130, 2420, 2430, 2440, 2450, 2460, 3010, 3020, 3030, 3040"
   
   #format questions: a list with 'X'es before numeric questions (the way r reads the titles)
   questions <- c(strsplit(questions, ", ")[[1]])
