@@ -1,4 +1,5 @@
 #note: 2126 not available for FY14, asking that question will crash the program
+#note: must have names.csv file saved in the current working directory
 library(openxlsx)
 
 ##PART 0: Obtain get data based on user input  
