@@ -15,7 +15,7 @@ library(openxlsx)
   #userInput = "Ethan Allen"
   #railLine = "EthanAllen"
   #dataSet = read.csv("EthanAllen.csv")
-  questions = "1010, 1020, 1050, 1060, 1070, 1080, 1090, 1100, 1110, 2030, 2040, 2050, 2060, 2090, 2100, 2110, 2120, 2124, 2130, 2420, 2430, 2440, 2450, 2460, 3010, 3020, 3030, 3040"
+  questions = "1010, 1020, 1050, 1060, 1070, 1080, 1090, 1100, 1110, 2030, 2040, 2050, 2060, 2070, 2080, 2090, 2100, 2110, 2120, 2124, 2126, 2130, 2420, 2430, 2440, 2450, 2460, 3010, 3020, 3030, 3040"
   
   #format questions: a list with 'X'es before numeric questions (the way r reads the titles)
   questions <- c(strsplit(questions, ", ")[[1]])
@@ -56,7 +56,7 @@ library(openxlsx)
   )
   
   #Loading the question names
-  qnames <- read.csv("C:\\Users\\90013520\\Documents\\R\\stateSupported\\names.csv")
+  qnames <- read.csv("names.csv")
   qnames <- qnames[3:67,3]
   qbase = names(dataSet[22:87])
   rlist <- data.frame()
